@@ -13,7 +13,7 @@ steps:
 
 - task: Maven@4
   inputs:
-    azureSubscription: 'Free Trial(25330ea1-02d2-489a-a479-7b8b576f770c)'
+    azureSubscription: '0d620ca8-1dd9-473c-a96d-2d33d3ee93f7'
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
